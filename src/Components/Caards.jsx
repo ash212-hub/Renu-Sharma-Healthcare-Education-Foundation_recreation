@@ -6,7 +6,7 @@ function Caards() {
       <div className="card_container lg:flex align-center justify-around gap-4-">
 
 
-        <div className="card lg:w-1/5 w-[15rem]  ml-[3%] lg:ml-[0%]  lg:h-auto bg-white shadow-2xl shadow-black p-2 rounded-2xl">
+        <div className="card lg:w-1/5 w-[15rem]  ml-[3%] lg:ml-[0%]  lg:h-auto bg-white shadow-2xl shadow-black p-2 rounded-2xl hover:scale-110 transition-all duration-150">
             <div className="headder text-3xl text-center">Make a Donation</div>
             <div className="cardimg">
                 <img src="https://renuhealthcare.vercel.app/HomepageImages/ThreeSlogans/donation.gif" alt="" />
@@ -19,7 +19,7 @@ function Caards() {
 
 
 
-        <div className="card lg:w-1/5  w-[15rem] h-auto ml-[30%] lg:ml-0 bg-white shadow-2xl shadow-black p-2 rounded-2xl">
+        <div className="card lg:w-1/5  w-[15rem] h-auto ml-[30%] lg:ml-0 bg-white shadow-2xl shadow-black p-2 rounded-2xl hover:scale-110 transition-all duration-150">
             <div className="headder text-3xl text-center">Become a volunteer</div>
             <div className="cardimg">
                 <img src="https://renuhealthcare.vercel.app/HomepageImages/ThreeSlogans/volunteer.gif" alt="" />
@@ -33,7 +33,7 @@ function Caards() {
 
 
 
-        <div className="card lg:w-1/5 ml-[3%] lg:ml-[0%]  w-[15rem] h-auto bg-white shadow-2xl shadow-black p-2 rounded-2xl">
+        <div className="card lg:w-1/5 ml-[3%] lg:ml-[0%]  w-[15rem] h-auto bg-white shadow-2xl shadow-black p-2 rounded-2xl hover:scale-110 transition-all duration-150">
             <div className="headder text-3xl text-center">Sponsorship</div>
             <div className="cardimg">
                 <img src="https://renuhealthcare.vercel.app/HomepageImages/ThreeSlogans/sponsor.gif" alt="" />
