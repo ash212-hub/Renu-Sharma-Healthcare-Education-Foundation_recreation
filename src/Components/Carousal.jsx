@@ -10,7 +10,7 @@ function Carousal() {
  
       
       console.log(document.getElementsByClassName("nete")[val]);
-      document.getElementsByClassName("nete")[val].style .zIndex="9";
+      document.getElementsByClassName("nete")[val].style.zIndex="9";
        if(val===7){
         setval(0)
         
