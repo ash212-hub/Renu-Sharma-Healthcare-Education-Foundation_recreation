@@ -2,16 +2,27 @@
 // import slider from "./slider.json"
 import "../App.css"
 function Carousal() {
-  const[val,setval]=useState(1)
+   const[val,setval]=useState(0)
+  
   useEffect(() => {
     setTimeout(() => {
-      setval((count) => count + 1);
-    }, 6000);
-   if(val==8){
-    setval(1)
+         setval(val+1);
+ 
+      
+      console.log(document.getElementsByClassName("nete")[val]);
+      document.getElementsByClassName("nete")[val].style .zIndex="9";
+       if(val===7){
+        setval(0)
+        
+      }
+      
      
-   }
-  console.log( )
+    }, 3000);
+
+    
+    
+   
+ 
   });
    
 
